@@ -1,16 +1,12 @@
 package guru.qa;
 
-import com.codeborne.selenide.CollectionCondition;
 import com.codeborne.selenide.Configuration;
 import guru.qa.data.Language;
 import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.params.ParameterizedTest;
-import org.junit.jupiter.params.provider.ValueSource;
 
-import static com.codeborne.selenide.Selectors.by;
 import static com.codeborne.selenide.Selenide.*;
 
-public class flyPobeda {
+public class FlyPobedaTest {
 
     @BeforeEach
     void setUp() {
